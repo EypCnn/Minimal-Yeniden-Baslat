@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+def libsuperuserVersion = "1.0.0+"
+def markdownjVersion = "0.4"
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.eypcnn.reboot"
+        minSdkVersion 4
+        targetSdkVersion 26
+        versionCode rootProject.ext.appVersionCode
+        versionName rootProject.ext.appVersionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile "eu.chainfire:libsuperuser:${libsuperuserVersion}"
+    compile "org.markdownj:markdownj-core:${markdownjVersion}"
+}

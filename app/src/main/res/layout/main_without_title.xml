@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yamuk">
+
+    <Button
+        android:id="@+id/reboot_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="23dp"
+        android:text="@string/reboot"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/yeniden"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/soft_reboot"
+        android:textAllCaps="false"
+        android:background="@drawable/hizli"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/soft_reboot_button"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reboot_recovery"
+        android:textAllCaps="false"
+        android:background="@drawable/reco"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/reboot_recovery_button"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reboot_bootloader"
+        android:textAllCaps="false"
+        android:background="@drawable/boot"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/reboot_bootloader_button"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reboot_download"
+        android:textAllCaps="false"
+        android:background="@drawable/indirme"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/reboot_download_button"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/power_off"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/kapat"
+        android:id="@+id/power_off_button"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/iptal"
+        android:id="@+id/cancel_button"/>
+    
+</LinearLayout>
