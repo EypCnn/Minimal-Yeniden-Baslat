@@ -1,10 +1,16 @@
 # Minimal Yeniden Başlat #
 
-![photo](https://i.hizliresim.com/ZO1O7o.png)
+<img alt="Logo" src="screenshort/logo.png" width="80" />
 
 Yeniden Başlatma İşini Hızlıca Uygulayan Android Uygulamasıdır.
 
-![photo](https://i.hizliresim.com/By9yDQ.jpg)
+<div style="display:flex;">
+<img alt="App image" src="screenshort/Ekran Görüntüsü (1).png" width="30%">
+<img alt="App image" src="screenshort/Ekran Görüntüsü (2).png" width="30%">
+<img alt="App image" src="screenshort/Ekran Görüntüsü (3).png" width="30%">
+
+</div>
+
 
 # Özellikleri #
 * Açık Kaynak
